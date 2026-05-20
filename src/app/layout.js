@@ -1,16 +1,21 @@
+"use client";
+import { useEffect } from 'react';
 import './globals.css';
-import Cursor from './Cursor'; // <-- 1. Import it here
-
-export const metadata = {
-  title: "Tanza Taylor | Portfolio",
-  description: "Welcome to my personal developer portfolio.",
-};
 
 export default function RootLayout({ children }) {
+  useEffect(() => {
+    const moveCursor = (e) => {
+      document.documentElement.style.setProperty('--cursor-x', `${e.clientX}px`);
+      document.documentElement.style.setProperty('--cursor-y', `${e.clientY}px`);
+    };
+    window.addEventListener('mousemove', moveCursor);
+    return () => window.removeEventListener('mousemove', moveCursor);
+  }, []);
+
   return (
     <html lang="en">
       <body>
-        <Cursor /> {/* <-- 2. Drop it in right here */}
+        <div className="custom-glowing-cursor" />
         {children}
       </body>
     </html>
