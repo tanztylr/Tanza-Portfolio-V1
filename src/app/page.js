@@ -57,18 +57,18 @@ export default function Home() {
       {/* 1. HERO SECTION */}
       <div className="relative z-10 text-center space-y-4 mb-20">
         <div className="inline-flex items-center space-x-2 bg-cyan-500/10 border border-cyan-500/20 text-cyan-400 text-xs px-3 py-1 rounded-full uppercase tracking-wider font-medium">
-          Workflow Architecture // Technical Execution
+          
         </div>
         <div className="space-y-2 pt-2">
           <h1 className="text-4xl md:text-6xl font-bold tracking-tight bg-gradient-to-r from-slate-100 to-slate-300 bg-clip-text text-transparent">
             Tanza Taylor
           </h1>
-          <p className="text-2xl md:text-3xl font-medium tracking-tight bg-gradient-to-r from-cyan-400 via-teal-300 to-indigo-400 bg-clip-text text-transparent font-sans">
+          <p className="text-2xl md:text-3xl font-medium tracking-tight bg-gradient-to-r from-lime-500 via-stone-300 to-amber-100 bg-clip-text text-transparent font-sans">
             Project Manager & Digital Solutions Builder
           </p>
         </div>
     <p className="text-slate-400 text-lg max-w-xl mx-auto leading-relaxed pt-2">
-  Project management professional focused on creating structure, improving workflows, and transforming complexity into organized systems. Experience spans operations support, project coordination, process improvement, and digital solution development.
+  Building structure, improving workflows, and turning complex challenges into practical solutions through project management, operations, and digital problem solving.
 </p>
 </div>
 
@@ -86,22 +86,22 @@ export default function Home() {
         <div className="space-y-4 max-w-3xl">
           <h2 className="text-3xl md:text-4xl font-bold tracking-tight bg-gradient-to-r from-slate-100 to-slate-300 bg-clip-text text-transparent">
             Built for Systems.<br />
-            <span className="bg-gradient-to-r from-cyan-400 via-teal-300 to-indigo-400 bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-lime-500 via-stone-300 to-amber-100 bg-clip-text text-transparent">
               Driven by Solutions.
             </span>
           </h2>
           <p className="text-slate-400 text-base leading-relaxed">
-            A project management professional focused on creating structure, improving workflows, and transforming complexity into organized systems. Experience spans project coordination, operations support, process improvement, and workflow management, with a growing focus on digital solutions, research, usability, and technology-driven problem solving.
+           My work has centered on creating structure, improving workflows, and turning complexity into organized systems. Experience across project coordination, operations support, process improvement, and workflow management naturally led to a growing interest in digital solutions, research, usability, and technology-driven problem solving.
           </p>
         </div>
 
         {/* Professional Story */}
         <div className="backdrop-blur-xl bg-white/5 border border-white/10 rounded-2xl p-6 md:p-8 space-y-4 transition-all duration-300 hover:border-cyan-400/30 hover:shadow-[0_0_35px_rgba(34,211,238,0.08)]">
           <p className="text-slate-300 text-sm leading-relaxed">
-            A career built around creating clarity where complexity exists. From coordinating projects and supporting operations to managing workflows and improving processes, the common thread has always been organization, structure, and execution.
+            Creating order from complexity has been a consistent theme throughout my career. Whether coordinating projects, supporting operations, improving workflows, or building systems, I've always been drawn to work that brings structure to moving parts and turns ideas into something practical, organized, and useful.
           </p>
           <p className="text-slate-400 text-sm leading-relaxed">
-            Over time, that systems-focused mindset naturally expanded into digital solutions and technology. Long before exploring web applications, the work was already centered on organizing information, improving processes, solving operational challenges, and keeping moving pieces aligned. An interest in building better systems eventually led to researching new tools, exploring digital products, and creating solutions designed to make work easier to manage. That same curiosity continues to shape the way projects, workflows, and new ideas are approached today.
+            Over time, that systems-focused mindset naturally expanded into digital solutions and technology. Long before exploring web applications, much of the work was already centered on organizing information, improving processes, solving operational challenges, and keeping moving pieces aligned. As new tools and technologies emerged, I became increasingly interested in how digital products could simplify workflows, support better decision-making, and create more efficient ways of working. That curiosity continues to shape how I approach projects, systems, and new ideas today.
           </p>
 
           {/* Qualities */}
@@ -109,7 +109,7 @@ export default function Home() {
             {["Workflow Design", "Systems Organization", "Process Improvement", "Project Planning", "Research & Analysis", "Digital Solutions"].map((q) => (
               <span
                 key={q}
-                className="text-xs font-mono font-medium px-3 py-1 rounded-full bg-white/[0.03] border border-white/10 text-slate-400 hover:text-cyan-400 hover:border-cyan-500/30 transition-all duration-200"
+                className="text-xs font-mono font-medium px-3 py-1 rounded-full bg-white/[0.03] border border-white/10 text-slate-400 hover:text-lime-400 hover:border-lime-500/30 transition-all duration-200"
               >
                 {q}
               </span>
@@ -134,7 +134,7 @@ export default function Home() {
               Project Management Foundation
             </h3>
             <p className="text-slate-400 text-sm leading-relaxed">
-              Project management knowledge developed through higher education, professional experience, mentorship programs, independent learning, and formal training. Supported by hands-on experience coordinating initiatives, improving workflows, and driving operational execution.
+              My project management foundation was built through higher education, professional experience, mentorship programs, independent learning, and formal training. It continues to evolve through hands-on work coordinating initiatives, improving workflows, solving operational challenges, and supporting successful project execution.
             </p>
           </div>
 
@@ -152,7 +152,7 @@ export default function Home() {
               AuraCare | Healthcare Research & Innovation Project
             </h3>
             <p className="text-slate-400 text-sm leading-relaxed">
-              Independently conceived, researched, planned, and developed as a capstone initiative focused on improving support for individuals living with epilepsy through medication tracking, seizure management, and emergency preparedness.
+              AuraCare is an independently conceived personal application project focused on improving support for individuals living with epilepsy through medication tracking, seizure management, emergency preparedness, and health information organization. The project combines research, planning, and digital solution design to address real-world challenges faced by individuals and caregivers.
             </p>
           </div>
 
@@ -196,7 +196,7 @@ export default function Home() {
               <h3 className="text-lg font-medium">Workflow Optimization</h3>
             </div>
             <p className="text-slate-400 text-sm leading-relaxed">
-              Focused on identifying process gaps, improving workflows, and creating structure that helps projects, teams, and operations run more effectively. Experience spans coordination, operational support, planning, and process improvement across diverse environments..
+              Experience across project coordination, operations support, planning, and process improvement has shaped an approach centered on organization, structure, and practical problem solving. Whether improving a workflow, organizing information, or creating systems that support execution, the focus remains the same: making work more efficient and easier to manage.
             </p>
           </div>
 
