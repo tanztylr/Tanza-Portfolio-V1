@@ -68,7 +68,8 @@ export default function Home() {
           </p>
         </div>
         <p className="text-slate-400 text-lg max-w-xl mx-auto leading-relaxed pt-2">
-          An execution-focused builder merging project management precision with modern technical workflows. I orchestrate timelines, leverage AI acceleration, and build clean application systems.
+          <p className="text-slate-400 text-lg max-w-xl mx-auto leading-relaxed pt-2">
+  Project management professional focused on creating structure, improving workflows, and transforming complexity into organized systems. Experience spans operations support, project coordination, process improvement, and digital solution development.     
         </p>
       </div>
 
@@ -99,11 +100,10 @@ export default function Home() {
         {/* Professional Story */}
         <div className="backdrop-blur-xl bg-white/5 border border-white/10 rounded-2xl p-6 md:p-8 space-y-4 transition-all duration-300 hover:border-cyan-400/30 hover:shadow-[0_0_35px_rgba(34,211,238,0.08)]">
           <p className="text-slate-300 text-sm leading-relaxed">
-            My foundation is in project coordination, operations support, and workflow management — roles that required equal parts structure, communication, and the ability to hold a lot of moving pieces together under pressure. I developed a strong instinct for spotting process gaps, building systems around them, and keeping complex work moving forward without things falling apart.
+            A career built around creating clarity where complexity exists. From coordinating projects and supporting operations to managing workflows and improving processes, the common thread has always been organization, structure, and execution.
           </p>
           <p className="text-slate-400 text-sm leading-relaxed">
-            Over time, that systems-focused thinking naturally expanded into digital territory. Completing the{" "}
-            <span className="text-slate-200 font-semibold">Project Management Foundation</span> through Grow with Google sharpened my project planning, Agile, and stakeholder communication fundamentals. From there, I began exploring web application development and quickly discovered I enjoy creating practical tools that solve real problems. Whether improving a workflow, organizing information, or designing a better user experience, I am drawn to solutions that make work simpler and more effective. My long-term interests sit at the intersection of operations, digital product development, and technology-driven problem solving. That is where I do my best work.
+            Over time, that systems-focused mindset naturally expanded into digital solutions and technology. Long before exploring web applications, the work was already centered on organizing information, improving processes, solving operational challenges, and keeping moving pieces aligned. An interest in building better systems eventually led to researching new tools, exploring digital products, and creating solutions designed to make work easier to manage. That same curiosity continues to shape the way projects, workflows, and new ideas are approached today.
           </p>
 
           {/* Qualities */}
@@ -136,7 +136,7 @@ export default function Home() {
               Project Management Foundation
             </h3>
             <p className="text-slate-400 text-sm leading-relaxed">
-              Completed through Grow with Google. Covers project planning, risk management, stakeholder communication, Agile practices, and end-to-end project execution across real-world scenarios.
+              Project management knowledge developed through higher education, professional experience, mentorship programs, independent learning, and formal training. Supported by hands-on experience coordinating initiatives, improving workflows, and driving operational execution.
             </p>
           </div>
 
@@ -151,10 +151,10 @@ export default function Home() {
               <span className="text-xs font-mono font-semibold text-teal-400 uppercase tracking-wider">Capstone</span>
             </div>
             <h3 className="text-base font-semibold text-white leading-snug">
-              AuraCare — Research-Based Capstone
+              AuraCare | Healthcare Research & Innovation Project
             </h3>
             <p className="text-slate-400 text-sm leading-relaxed">
-              A research-driven health technology concept designed to support individuals living with epilepsy through medication tracking, seizure management, and emergency preparedness planning.
+              Independently conceived, researched, planned, and developed as a capstone initiative focused on improving support for individuals living with epilepsy through medication tracking, seizure management, and emergency preparedness.
             </p>
           </div>
 
@@ -166,13 +166,15 @@ export default function Home() {
                   <path strokeLinecap="round" strokeLinejoin="round" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
                 </svg>
               </div>
-              <span className="text-xs font-mono font-semibold text-indigo-400 uppercase tracking-wider">Lab Projects</span>
+              <span className="text-xs font-mono font-semibold text-indigo-400 uppercase tracking-wider">
+  Systems Design
+</span>
             </div>
             <h3 className="text-base font-semibold text-white leading-snug">
-              Web Application Projects
+              Systems & Process Design
             </h3>
             <p className="text-slate-400 text-sm leading-relaxed">
-              Multiple AI-assisted portfolio and demonstration applications built to explore systems thinking, workflow design, and digital problem solving. Each project reflects creativity, operational curiosity, and a process-first approach to building.
+              Focused on creating structure, improving workflows, identifying process gaps, and developing solutions that make information, projects, and processes easier to manage.
             </p>
           </div>
 
@@ -196,27 +198,27 @@ export default function Home() {
               <h3 className="text-lg font-medium">Workflow Optimization</h3>
             </div>
             <p className="text-slate-400 text-sm leading-relaxed">
-              An expert at hunting down operational inefficiencies and re-engineering workflows to keep complex timelines moving smoothly. Backed by deep experience handling full-stack business logistics, payroll, and team coordination.
+              Focused on identifying process gaps, improving workflows, and creating structure that helps projects, teams, and operations run more effectively. Experience spans coordination, operational support, planning, and process improvement across diverse environments..
             </p>
           </div>
 
           <div className="backdrop-blur-xl bg-white/5 border border-white/10 rounded-2xl p-6 transition-all duration-300 hover:border-teal-400 hover:shadow-[0_0_35px_rgba(45,212,191,0.35)] hover:bg-teal-500/[0.03]">
             <div className="flex items-center space-x-3 mb-3">
               <Cpu className="w-6 h-6 text-teal-400" />
-              <h3 className="text-lg font-medium">AI Co-Pilot Engineering</h3>
+              <h3 className="text-lg font-medium">Digital Solutions Development</h3>
             </div>
             <p className="text-slate-400 text-sm leading-relaxed">
-              Leveraging advanced AI models to explicitly translate codebase errors and rapidly write layout logic, while managing source environments via <span className="font-semibold text-slate-200">GitHub</span> and deploying live assets on <span className="font-semibold text-slate-200">Vercel</span>.
+              Leveraging AI-assisted workflows, project management principles, and modern digital tools to transform ideas into functional solutions. Experience includes managing repositories through GitHub, deploying applications through Vercel, and coordinating development workflows from concept to execution..
             </p>
           </div>
 
           <div className="backdrop-blur-xl bg-white/5 border border-white/10 rounded-2xl p-6 transition-all duration-300 hover:border-purple-400 hover:shadow-[0_0_35px_rgba(168,85,247,0.35)] hover:bg-purple-500/[0.03] md:col-span-2">
             <div className="flex items-center space-x-3 mb-3">
               <Layers className="w-6 h-6 text-purple-400" />
-              <h3 className="text-lg font-medium">Active Lab: TheSimfile</h3>
+              <h3 className="text-lg font-medium">Featured Project | TheSimFile</h3>
             </div>
             <p className="text-slate-400 text-sm leading-relaxed">
-              Building a centralized application designed for simulation players to seamlessly organize their worlds. Currently writing frontend components to map out complex lore, custom character profiles, family lineage trees, and genetic traits all in one workspace.
+              A centralized platform designed to help simulation players organize households, character histories, family trees, lore, genetics, and world-building information within a single structured workspace.
             </p>
           </div>
         </div>
@@ -231,7 +233,7 @@ export default function Home() {
           </div>
 
           <div className="space-y-12">
-            {/* Row 1: Automation & AI */}
+            {/* Row 1: Research, Automation & AI → */}
             <div className="space-y-4">
               <h4 className="text-sm font-semibold uppercase tracking-wider text-cyan-400 font-mono">Automation & AI →</h4>
               <div className="grid grid-cols-3 sm:grid-cols-5 md:grid-cols-6 gap-3">
@@ -249,8 +251,7 @@ export default function Home() {
                 </div>
                 <div className="aspect-square flex flex-col items-center justify-center bg-white/[0.02] border border-white/5 rounded-xl p-3 text-center transition-all hover:bg-white/[0.06] hover:border-cyan-500/30 group">
                   <div className="w-7 h-7 mb-2 flex items-center justify-center text-teal-400 font-bold text-xl">♥</div>
-                  <span className="text-xs md:text-sm text-slate-300 font-medium tracking-tight">Lovable</span>
-                </div>
+                  <span className="text-xs md:text-sm text-slate-300 font-medium tracking-tight"
                 <div className="aspect-square flex flex-col items-center justify-center bg-white/[0.02] border border-white/5 rounded-xl p-3 text-center transition-all hover:bg-white/[0.06] hover:border-cyan-500/30 group">
                   <div className="w-7 h-7 mb-2 flex items-center justify-center text-slate-400 font-bold text-xs border border-slate-700 rounded px-1.5 py-0.5 bg-slate-900">LM</div>
                   <span className="text-xs md:text-sm text-slate-300 font-medium tracking-tight">NotebookLM</span>
