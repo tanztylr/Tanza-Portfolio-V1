@@ -72,8 +72,7 @@ export default function Home() {
 </p>
 </div>
 
-{/* 2. ABOUT SECTION */}
-      <div className="relative z-10 w-full max-w-5xl space-y-8 mb-24">
+      {/* 2. ABOUT SECTION */}
 
         {/* Section Label */}
         <div className="flex items-center space-x-2 text-cyan-400">
