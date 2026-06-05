@@ -92,7 +92,7 @@ export default function Home() {
             </span>
           </h2>
           <p className="text-slate-400 text-base leading-relaxed">
-            My career has centered on one thing: creating clarity where complexity lives. Whether coordinating cross-functional projects, redesigning broken workflows, or building digital tools from scratch, the instinct is always the same — find what is not working, design something better, and execute it cleanly.
+            A project management professional focused on creating structure, improving workflows, and transforming complexity into organized systems. Experience spans project coordination, operations support, process improvement, and workflow management, with a growing focus on digital solutions, research, usability, and technology-driven problem solving.
           </p>
         </div>
 
@@ -103,12 +103,12 @@ export default function Home() {
           </p>
           <p className="text-slate-400 text-sm leading-relaxed">
             Over time, that systems-focused thinking naturally expanded into digital territory. Completing the{" "}
-            <span className="text-slate-200 font-semibold">Google Project Management Certificate</span> through Grow with Google sharpened my project planning, Agile, and stakeholder communication fundamentals. From there, I began exploring web application development and quickly discovered I enjoy creating practical tools that solve real problems. Whether improving a workflow, organizing information, or designing a better user experience, I am drawn to solutions that make work simpler and more effective. My long-term interests sit at the intersection of operations, digital product development, and technology-driven problem solving. That is where I do my best work.
+            <span className="text-slate-200 font-semibold">Project Management Foundation</span> through Grow with Google sharpened my project planning, Agile, and stakeholder communication fundamentals. From there, I began exploring web application development and quickly discovered I enjoy creating practical tools that solve real problems. Whether improving a workflow, organizing information, or designing a better user experience, I am drawn to solutions that make work simpler and more effective. My long-term interests sit at the intersection of operations, digital product development, and technology-driven problem solving. That is where I do my best work.
           </p>
 
           {/* Qualities */}
           <div className="pt-2 flex flex-wrap gap-2">
-            {["Organization", "Communication", "Leadership", "Creativity", "Reliability", "Attention to Detail"].map((q) => (
+            {["Workflow Design", "Systems Organization", "Process Improvement", "Project Planning", "Research & Analysis", "Digital Solutions"].map((q) => (
               <span
                 key={q}
                 className="text-xs font-mono font-medium px-3 py-1 rounded-full bg-white/[0.03] border border-white/10 text-slate-400 hover:text-cyan-400 hover:border-cyan-500/30 transition-all duration-200"
@@ -133,7 +133,7 @@ export default function Home() {
               <span className="text-xs font-mono font-semibold text-cyan-400 uppercase tracking-wider">Certificate</span>
             </div>
             <h3 className="text-base font-semibold text-white leading-snug">
-              Google Project Management Certificate
+              Project Management Foundation
             </h3>
             <p className="text-slate-400 text-sm leading-relaxed">
               Completed through Grow with Google. Covers project planning, risk management, stakeholder communication, Agile practices, and end-to-end project execution across real-world scenarios.
