@@ -1,5 +1,3 @@
-bash
-cat > /mnt/user-data/outputs/page.js << 'ENDOFFILE'
 "use client";
 
 import { useState } from "react";
@@ -534,5 +532,4 @@ export default function Home() {
     </main>
   );
 }
-ENDOFFILE
 echo "Done"
