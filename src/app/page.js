@@ -1,14 +1,15 @@
+bash
+cat > /mnt/user-data/outputs/page.js << 'ENDOFFILE'
 "use client";
 
 import { useState } from "react";
-import { Terminal, Briefcase, Cpu, Layers, Calendar, ChevronRight, Mail, Loader2, CheckCircle2, X } from "lucide-react";
+import { Terminal, Briefcase, Cpu, Layers, Calendar, ChevronRight, Mail, Loader2, CheckCircle2, X, User } from "lucide-react";
 
 export default function Home() {
-  // Form Control States
   const [isFormOpen, setIsFormOpen] = useState(false);
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
-  const [formStatus, setFormStatus] = useState("IDLE"); // IDLE, SENDING, SUCCESS, ERROR
+  const [formStatus, setFormStatus] = useState("IDLE");
 
   const handleFormSubmit = async (e) => {
     e.preventDefault();
@@ -24,7 +25,7 @@ export default function Home() {
           Accept: "application/json",
         },
         body: JSON.stringify({
-          access_key: "YOUR_WEB3FORMS_ACCESS_KEY_HERE", // Grab your free key from web3forms.com
+          access_key: "YOUR_WEB3FORMS_ACCESS_KEY_HERE",
           email: email,
           message: message,
           subject: "New Portfolio Message from TanzaTaylor.dev",
@@ -36,7 +37,6 @@ export default function Home() {
         setFormStatus("SUCCESS");
         setEmail("");
         setMessage("");
-        // Automatically close the tray after a brief delay on success
         setTimeout(() => {
           setIsFormOpen(false);
           setFormStatus("IDLE");
@@ -51,7 +51,7 @@ export default function Home() {
 
   return (
     <main className="relative flex min-h-screen flex-col items-center justify-start bg-slate-950 text-white p-6 pt-24 md:pt-32 pb-32 overflow-hidden">
-      
+
       {/* ATMOSPHERIC BACKGROUND GLOWS */}
       <div className="absolute top-[-10%] left-[-10%] w-[500px] h-[500px] rounded-full bg-cyan-500/10 blur-[120px] pointer-events-none" />
       <div className="absolute top-[30%] right-[-10%] w-[600px] h-[600px] rounded-full bg-indigo-500/10 blur-[150px] pointer-events-none" />
@@ -66,7 +66,7 @@ export default function Home() {
             Tanza Taylor
           </h1>
           <p className="text-2xl md:text-3xl font-medium tracking-tight bg-gradient-to-r from-cyan-400 via-teal-300 to-indigo-400 bg-clip-text text-transparent font-sans">
-            Modern Project Operator
+            Project Manager & Digital Solutions Builder
           </p>
         </div>
         <p className="text-slate-400 text-lg max-w-xl mx-auto leading-relaxed pt-2">
@@ -74,7 +74,114 @@ export default function Home() {
         </p>
       </div>
 
-      {/* 2. CORE CAPABILITIES */}
+      {/* 2. ABOUT SECTION */}
+      <div className="relative z-10 w-full max-w-5xl space-y-8 mb-24">
+
+        {/* Section Label */}
+        <div className="flex items-center space-x-2 text-cyan-400">
+          <User className="w-5 h-5" />
+          <h2 className="text-sm font-semibold uppercase tracking-wider">
+            About // Professional Profile
+          </h2>
+        </div>
+
+        {/* Headline + Intro */}
+        <div className="space-y-4 max-w-3xl">
+          <h2 className="text-3xl md:text-4xl font-bold tracking-tight bg-gradient-to-r from-slate-100 to-slate-300 bg-clip-text text-transparent">
+            Built for Systems.<br />
+            <span className="bg-gradient-to-r from-cyan-400 via-teal-300 to-indigo-400 bg-clip-text text-transparent">
+              Driven by Solutions.
+            </span>
+          </h2>
+          <p className="text-slate-400 text-base leading-relaxed">
+            My career has centered on one thing: creating clarity where complexity lives. Whether coordinating cross-functional projects, redesigning broken workflows, or building digital tools from scratch, the instinct is always the same — find what is not working, design something better, and execute it cleanly.
+          </p>
+        </div>
+
+        {/* Professional Story */}
+        <div className="backdrop-blur-xl bg-white/5 border border-white/10 rounded-2xl p-6 md:p-8 space-y-4 transition-all duration-300 hover:border-cyan-400/30 hover:shadow-[0_0_35px_rgba(34,211,238,0.08)]">
+          <p className="text-slate-300 text-sm leading-relaxed">
+            My foundation is in project coordination, operations support, and workflow management — roles that required equal parts structure, communication, and the ability to hold a lot of moving pieces together under pressure. I developed a strong instinct for spotting process gaps, building systems around them, and keeping complex work moving forward without things falling apart.
+          </p>
+          <p className="text-slate-400 text-sm leading-relaxed">
+            Over time, that systems-focused thinking naturally expanded into digital territory. Completing the{" "}
+            <span className="text-slate-200 font-semibold">Google Project Management Certificate</span> through Grow with Google sharpened my project planning, Agile, and stakeholder communication fundamentals. From there, I began exploring web application development and quickly discovered I enjoy creating practical tools that solve real problems. Whether improving a workflow, organizing information, or designing a better user experience, I am drawn to solutions that make work simpler and more effective. My long-term interests sit at the intersection of operations, digital product development, and technology-driven problem solving. That is where I do my best work.
+          </p>
+
+          {/* Qualities */}
+          <div className="pt-2 flex flex-wrap gap-2">
+            {["Organization", "Communication", "Leadership", "Creativity", "Reliability", "Attention to Detail"].map((q) => (
+              <span
+                key={q}
+                className="text-xs font-mono font-medium px-3 py-1 rounded-full bg-white/[0.03] border border-white/10 text-slate-400 hover:text-cyan-400 hover:border-cyan-500/30 transition-all duration-200"
+              >
+                {q}
+              </span>
+            ))}
+          </div>
+        </div>
+
+        {/* Highlight Cards */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+
+          {/* Card 1: Google PM Certificate */}
+          <div className="backdrop-blur-xl bg-white/5 border border-white/10 rounded-2xl p-6 flex flex-col gap-3 transition-all duration-300 hover:border-cyan-400 hover:shadow-[0_0_35px_rgba(34,211,238,0.35)] hover:bg-cyan-500/[0.03]">
+            <div className="flex items-center gap-2">
+              <div className="w-8 h-8 rounded-lg bg-cyan-500/10 border border-cyan-500/20 flex items-center justify-center shrink-0">
+                <svg className="w-4 h-4 text-cyan-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" />
+                </svg>
+              </div>
+              <span className="text-xs font-mono font-semibold text-cyan-400 uppercase tracking-wider">Certificate</span>
+            </div>
+            <h3 className="text-base font-semibold text-white leading-snug">
+              Google Project Management Certificate
+            </h3>
+            <p className="text-slate-400 text-sm leading-relaxed">
+              Completed through Grow with Google. Covers project planning, risk management, stakeholder communication, Agile practices, and end-to-end project execution across real-world scenarios.
+            </p>
+          </div>
+
+          {/* Card 2: AuraCare Capstone */}
+          <div className="backdrop-blur-xl bg-white/5 border border-white/10 rounded-2xl p-6 flex flex-col gap-3 transition-all duration-300 hover:border-teal-400 hover:shadow-[0_0_35px_rgba(45,212,191,0.35)] hover:bg-teal-500/[0.03]">
+            <div className="flex items-center gap-2">
+              <div className="w-8 h-8 rounded-lg bg-teal-500/10 border border-teal-500/20 flex items-center justify-center shrink-0">
+                <svg className="w-4 h-4 text-teal-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
+                </svg>
+              </div>
+              <span className="text-xs font-mono font-semibold text-teal-400 uppercase tracking-wider">Capstone</span>
+            </div>
+            <h3 className="text-base font-semibold text-white leading-snug">
+              AuraCare — Research-Based Capstone
+            </h3>
+            <p className="text-slate-400 text-sm leading-relaxed">
+              A research-driven health technology concept designed to support individuals living with epilepsy through medication tracking, seizure management, and emergency preparedness planning.
+            </p>
+          </div>
+
+          {/* Card 3: Web Apps */}
+          <div className="backdrop-blur-xl bg-white/5 border border-white/10 rounded-2xl p-6 flex flex-col gap-3 transition-all duration-300 hover:border-indigo-400 hover:shadow-[0_0_35px_rgba(129,140,248,0.35)] hover:bg-indigo-500/[0.03]">
+            <div className="flex items-center gap-2">
+              <div className="w-8 h-8 rounded-lg bg-indigo-500/10 border border-indigo-500/20 flex items-center justify-center shrink-0">
+                <svg className="w-4 h-4 text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+                </svg>
+              </div>
+              <span className="text-xs font-mono font-semibold text-indigo-400 uppercase tracking-wider">Lab Projects</span>
+            </div>
+            <h3 className="text-base font-semibold text-white leading-snug">
+              Web Application Projects
+            </h3>
+            <p className="text-slate-400 text-sm leading-relaxed">
+              Multiple AI-assisted portfolio and demonstration applications built to explore systems thinking, workflow design, and digital problem solving. Each project reflects creativity, operational curiosity, and a process-first approach to building.
+            </p>
+          </div>
+
+        </div>
+      </div>
+
+      {/* 3. CORE CAPABILITIES */}
       <div className="relative z-10 w-full max-w-5xl space-y-8 mb-24">
         <div className="flex items-center space-x-2 text-cyan-400">
           <Terminal className="w-5 h-5" />
@@ -153,7 +260,7 @@ export default function Home() {
               </div>
             </div>
 
-            {/* Row 2: Project Collaboration */}
+            {/* Row 2: Project & Collaboration Tools */}
             <div className="space-y-4">
               <h4 className="text-sm font-semibold uppercase tracking-wider text-teal-400 font-mono">Project & Collaboration Tools →</h4>
               <div className="grid grid-cols-3 sm:grid-cols-5 md:grid-cols-6 gap-3">
@@ -218,7 +325,7 @@ export default function Home() {
         </div>
       </div>
 
-      {/* 3. THE JOURNEY TIMELINE SECTION */}
+      {/* 4. THE JOURNEY TIMELINE SECTION */}
       <div className="relative z-10 w-full max-w-4xl space-y-8 mb-28">
         <div className="flex items-center space-x-2 text-indigo-400">
           <Calendar className="w-5 h-5" />
@@ -233,14 +340,14 @@ export default function Home() {
             <div className="absolute left-[-9px] top-6 w-4 h-4 rounded-full bg-cyan-400 border-4 border-slate-950 ring-4 ring-cyan-400/20 group-hover:scale-125 transition-transform duration-300" />
             <div className="backdrop-blur-xl bg-white/5 border border-white/10 rounded-2xl p-5 transition-all duration-300 hover:border-cyan-400 hover:shadow-[0_0_35px_rgba(34,211,238,0.3)] hover:bg-cyan-400/[0.01]">
               <div className="flex flex-col md:flex-row md:items-center justify-between gap-1 mb-2">
-                <h3 className="text-lg font-bold text-white flex items-center gap-2">Technical Project Manager / Builder</h3>
+                <h3 className="text-lg font-bold text-white flex items-center gap-2">Project Manager & Digital Solutions Builder</h3>
                 <span className="text-xs font-mono font-semibold text-cyan-400 bg-cyan-400/10 px-2 py-1 rounded w-fit">Feb 2026 - Present</span>
               </div>
               <p className="text-slate-400 text-xs font-medium uppercase tracking-wider mb-2 flex items-center gap-1">
                 The Lab <ChevronRight className="w-3 h-3 text-slate-500" /> Independent Engineering Track
               </p>
               <p className="text-slate-400 text-sm leading-relaxed">
-                Merging corporate workflow precision with modern technical execution. Architecting clean-slate web applications, optimizing developer tooling, and building custom user spaces like <span className="font-semibold text-slate-200">TheSimfile</span>.
+                Combining project management expertise, systems thinking, and digital solution development to create workflow-focused applications and operational tools. Building portfolio projects that showcase process improvement, organization, and technology-driven problem solving.
               </p>
             </div>
           </div>
@@ -313,13 +420,12 @@ export default function Home() {
         </div>
       </div>
 
-      {/* 4. FOOTER WITH CLEANED UP INSCRIPTION */}
+      {/* 5. FOOTER */}
       <footer className="relative z-10 w-full max-w-4xl border-t border-slate-900 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-slate-500 text-xs font-mono">
         <div>© {new Date().getFullYear()} Tanza Taylor.</div>
         <div className="flex items-center space-x-6">
-          
-          {/* Email Button - Acts as form drawer trigger */}
-          <button 
+
+          <button
             onClick={() => setIsFormOpen(!isFormOpen)}
             className={`flex items-center gap-1 transition-all duration-200 uppercase tracking-wider font-bold px-2 py-1 rounded ${isFormOpen ? "text-cyan-400 bg-cyan-500/10 scale-105" : "hover:text-cyan-400"}`}
           >
@@ -336,7 +442,7 @@ export default function Home() {
           <a href="https://github.com/tanztylr" target="_blank" rel="noreferrer" className="flex items-center gap-1 hover:text-cyan-400 transition-colors duration-200">
             <svg className="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24">
               <path fillRule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clipRule="evenodd" />
-            </svg> 
+            </svg>
             <span>GitHub</span>
           </a>
 
@@ -345,15 +451,15 @@ export default function Home() {
 
       {/* SLIDE-UP CONTACT DRAWER */}
       <div className={`fixed bottom-0 left-0 right-0 z-50 backdrop-blur-2xl bg-slate-950/95 border-t border-slate-800 p-6 shadow-[0_-15px_40px_rgba(0,0,0,0.6)] transition-all duration-300 transform rounded-t-3xl max-w-2xl mx-auto w-full ${isFormOpen ? "translate-y-0 opacity-100" : "translate-y-full opacity-0 pointer-events-none"}`}>
-        
+
         <div className="flex items-center justify-between border-b border-slate-900 pb-3 mb-4">
           <div className="flex items-center space-x-2">
             <Mail className="w-4 h-4 text-cyan-400 animate-pulse" />
             <h4 className="text-sm font-mono uppercase tracking-wider text-slate-200 font-bold">Secure Contact Pipeline</h4>
           </div>
-          <button 
+          <button
             onClick={() => setIsFormOpen(false)}
-            className="text-slate-500 hover:text-white p-1 hover:bg-slate-900 rounded-lg transition-all"
+            className="text-slate-500 hover:text-white p1 hover:bg-slate-900 rounded-lg transition-all"
           >
             <X className="w-4 h-4" />
           </button>
@@ -373,7 +479,7 @@ export default function Home() {
           <form onSubmit={handleFormSubmit} className="space-y-4">
             <div className="space-y-1">
               <label className="text-[10px] font-mono uppercase tracking-wider text-slate-400 block">Your Email Address</label>
-              <input 
+              <input
                 type="email"
                 required
                 value={email}
@@ -386,7 +492,7 @@ export default function Home() {
 
             <div className="space-y-1">
               <label className="text-[10px] font-mono uppercase tracking-wider text-slate-400 block">Message Intent & Details</label>
-              <textarea 
+              <textarea
                 required
                 rows={3}
                 value={message}
@@ -405,7 +511,7 @@ export default function Home() {
                   Bypasses mail links entirely to land straight in my active notifications loop.
                 </p>
               )}
-              
+
               <button
                 type="submit"
                 disabled={formStatus === "SENDING"}
@@ -428,3 +534,5 @@ export default function Home() {
     </main>
   );
 }
+ENDOFFILE
+echo "Done"
