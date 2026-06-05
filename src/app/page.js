@@ -73,7 +73,7 @@ export default function Home() {
 </div>
 
       {/* 2. ABOUT SECTION */}
-
+<div className="relative z-10 w-full max-w-5xl space-y-8 mb-24">
         {/* Section Label */}
         <div className="flex items-center space-x-2 text-cyan-400">
           <User className="w-5 h-5" />
@@ -233,7 +233,7 @@ export default function Home() {
           <div className="space-y-12">
             {/* Row 1: Research, Automation & AI → */}
             <div className="space-y-4">
-              <h4 className="text-sm font-semibold uppercase tracking-wider text-cyan-400 font-mono">Automation & AI →</h4>
+              <h4 className="text-sm font-semibold uppercase tracking-wider text-cyan-400 font-mono">Research, Automation & AI →</h4>
               <div className="grid grid-cols-3 sm:grid-cols-5 md:grid-cols-6 gap-3">
                 <div className="aspect-square flex flex-col items-center justify-center bg-white/[0.02] border border-white/5 rounded-xl p-3 text-center transition-all hover:bg-white/[0.06] hover:border-cyan-500/30 group">
                   <div className="w-7 h-7 mb-2 flex items-center justify-center text-[#E68A5C] text-2xl font-serif font-bold tracking-tighter opacity-80 group-hover:opacity-100 transition-opacity">✻</div>
@@ -247,9 +247,6 @@ export default function Home() {
                   <div className="w-7 h-7 mb-2 flex items-center justify-center text-cyan-400 font-bold text-xl font-mono">✦</div>
                   <span className="text-xs md:text-sm text-slate-300 font-medium tracking-tight">Gemini</span>
                 </div>
-                <div className="aspect-square flex flex-col items-center justify-center bg-white/[0.02] border border-white/5 rounded-xl p-3 text-center transition-all hover:bg-white/[0.06] hover:border-cyan-500/30 group">
-                  <div className="w-7 h-7 mb-2 flex items-center justify-center text-teal-400 font-bold text-xl">♥</div>
-                  <span className="text-xs md:text-sm text-slate-300 font-medium tracking-tight"
                 <div className="aspect-square flex flex-col items-center justify-center bg-white/[0.02] border border-white/5 rounded-xl p-3 text-center transition-all hover:bg-white/[0.06] hover:border-cyan-500/30 group">
                   <div className="w-7 h-7 mb-2 flex items-center justify-center text-slate-400 font-bold text-xs border border-slate-700 rounded px-1.5 py-0.5 bg-slate-900">LM</div>
                   <span className="text-xs md:text-sm text-slate-300 font-medium tracking-tight">NotebookLM</span>
