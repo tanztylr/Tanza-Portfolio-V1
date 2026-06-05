@@ -67,13 +67,12 @@ export default function Home() {
             Project Manager & Digital Solutions Builder
           </p>
         </div>
-        <p className="text-slate-400 text-lg max-w-xl mx-auto leading-relaxed pt-2">
-          <p className="text-slate-400 text-lg max-w-xl mx-auto leading-relaxed pt-2">
-  Project management professional focused on creating structure, improving workflows, and transforming complexity into organized systems. Experience spans operations support, project coordination, process improvement, and digital solution development.     
-        </p>
-      </div>
+    <p className="text-slate-400 text-lg max-w-xl mx-auto leading-relaxed pt-2">
+  Project management professional focused on creating structure, improving workflows, and transforming complexity into organized systems. Experience spans operations support, project coordination, process improvement, and digital solution development.
+</p>
+</div>
 
-      {/* 2. ABOUT SECTION */}
+{/* 2. ABOUT SECTION */}
       <div className="relative z-10 w-full max-w-5xl space-y-8 mb-24">
 
         {/* Section Label */}
