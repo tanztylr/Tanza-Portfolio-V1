@@ -318,7 +318,61 @@ export default function Home() {
           </div>
         </div>
       </div>
+{/* 4. FEATURED PROJECTS */}
+<div className="relative z-10 w-full max-w-5xl space-y-12 mb-28">
 
+  <div className="flex items-center space-x-2 text-cyan-400">
+    <h2 className="text-sm font-semibold uppercase tracking-wider">
+      Featured Projects
+    </h2>
+  </div>
+
+  <div className="space-y-10">
+
+    <div className="border-b border-white/10 pb-10">
+      <p className="text-sm uppercase tracking-wider text-cyan-400 mb-2">
+        Healthcare Innovation
+      </p>
+      <h3 className="text-3xl font-bold text-white mb-4">
+        AuraCare
+      </h3>
+      <p className="text-slate-300 leading-relaxed max-w-3xl mb-4">
+        AuraCare is an independently conceived personal application project focused on improving support for individuals living with epilepsy through medication tracking, seizure management, emergency preparedness, and health information organization.
+      </p>
+      <p className="text-sm text-slate-400">
+        Researcher • Planner • Product Designer
+      </p>
+    </div>
+
+    <div className="border-b border-white/10 pb-10">
+      <p className="text-sm uppercase tracking-wider text-cyan-400 mb-2">
+        Knowledge Management
+      </p>
+      <h3 className="text-3xl font-bold text-white mb-4">
+        The Sim File
+      </h3>
+      <p className="text-slate-300 leading-relaxed max-w-3xl mb-4">
+        A centralized platform designed to help simulation players organize characters, relationships, family trees, lore, genetics, and world-building information in a structured and accessible way.
+      </p>
+      <p className="text-sm text-slate-400">
+        Product Creator • Planner • Designer
+      </p>
+    </div>
+
+    <div>
+      <p className="text-sm uppercase tracking-wider text-cyan-400 mb-2">
+        Exploration & Research
+      </p>
+      <h3 className="text-3xl font-bold text-white mb-4">
+        What's Next
+      </h3>
+      <p className="text-slate-300 leading-relaxed max-w-3xl">
+        Current areas of exploration include workflow tools, operational dashboards, research systems, AI-assisted productivity solutions, and digital products focused on organization, efficiency, and information management.
+      </p>
+    </div>
+
+  </div>
+</div>
       {/* 4. THE JOURNEY TIMELINE SECTION */}
       <div className="relative z-10 w-full max-w-4xl space-y-8 mb-28">
         <div className="flex items-center space-x-2 text-indigo-400">
