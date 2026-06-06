@@ -169,10 +169,10 @@ export default function Home() {
 </span>
             </div>
             <h3 className="text-base font-semibold text-white leading-snug">
-              Systems & Process Design
+              Digital Product Portfolio
             </h3>
             <p className="text-slate-400 text-sm leading-relaxed">
-              Focused on creating structure, improving workflows, identifying process gaps, and developing solutions that make information, projects, and processes easier to manage.
+              A growing collection of independently conceived projects focused on solving real-world challenges through research, organization, and digital solution design. Current work includes healthcare innovation, knowledge management systems, and workflow-focused applications.
             </p>
           </div>
 
