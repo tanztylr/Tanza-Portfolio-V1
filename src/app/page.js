@@ -56,9 +56,7 @@ export default function Home() {
 
       {/* 1. HERO SECTION */}
       <div className="relative z-10 text-center space-y-4 mb-20">
-        <div className="inline-flex items-center space-x-2 bg-cyan-500/10 border border-cyan-500/20 text-cyan-400 text-xs px-3 py-1 rounded-full uppercase tracking-wider font-medium">
-          
-        </div>
+        
         <div className="space-y-2 pt-2">
           <h1 className="text-4xl md:text-6xl font-bold tracking-tight bg-gradient-to-r from-slate-100 to-slate-300 bg-clip-text text-transparent">
             Tanza Taylor
