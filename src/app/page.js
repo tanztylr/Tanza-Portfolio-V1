@@ -404,7 +404,7 @@ export default function Home() {
             <div className="text-xs font-mono italic pl-2">Feb 2025 - Feb 2026 // Specialized Research, Architecture Planning & Technical Upskilling</div>
           </div>
 
-          {/* Cracker Barrel */}
+          {/* Cracker Barrel Corporate */}
           <div className="relative pl-8 md:pl-10 group">
             <div className="absolute left-[-9px] top-6 w-4 h-4 rounded-full bg-emerald-500 border-4 border-slate-950 group-hover:scale-125 transition-transform duration-300" />
             <div className="backdrop-blur-xl bg-white/5 border border-white/10 rounded-2xl p-5 transition-all duration-300 hover:border-emerald-500 hover:shadow-[0_0_35px_rgba(16,185,129,0.3)] hover:bg-emerald-500/[0.01]">
@@ -427,7 +427,7 @@ export default function Home() {
                 <h3 className="text-lg font-bold text-white">Project Specialist</h3>
                 <span className="text-xs font-mono font-semibold text-blue-400 bg-blue-500/10 px-2 py-1 rounded w-fit">Apr 2021 - Apr 2022</span>
               </div>
-              <p className="text-slate-400 text-xs font-medium uppercase tracking-wider mb-2 text-blue-400/90">Assurant — Kennesaw, GA</p>
+              <p className="text-slate-400 text-xs font-medium uppercase tracking-wider mb-2 text-blue-400/90">Assurant</p>
               <p className="text-slate-400 text-sm leading-relaxed">
                 Tracked critical delivery milestones, coordinated operational logistics, and optimized task management systems for high-stakes corporate execution tracks.
               </p>
@@ -442,7 +442,7 @@ export default function Home() {
                 <h3 className="text-lg font-bold text-white">Operations Manager</h3>
                 <span className="text-xs font-mono font-semibold text-orange-400 bg-orange-500/10 px-2 py-1 rounded w-fit">Mar 2019 - Mar 2021</span>
               </div>
-              <p className="text-slate-400 text-xs font-medium uppercase tracking-wider mb-2 text-orange-400/90">1000 Degrees — Kennesaw, GA</p>
+              <p className="text-slate-400 text-xs font-medium uppercase tracking-wider mb-2 text-orange-400/90">1000 Degrees</p>
               <p className="text-slate-400 text-sm leading-relaxed">
                 Directing day-to-day business operations, streamlining process workflows, and managing shifting team schedules and high-volume asset logistics.
               </p>
@@ -457,7 +457,7 @@ export default function Home() {
                 <h3 className="text-lg font-bold text-white">Team Lead</h3>
                 <span className="text-xs font-mono font-semibold text-purple-400 bg-purple-500/10 px-2 py-1 rounded w-fit">Aug 2017 - Aug 2019</span>
               </div>
-              <p className="text-slate-400 text-xs font-medium uppercase tracking-wider mb-2 text-purple-400/90">Planet Fitness — Mableton, GA</p>
+              <p className="text-slate-400 text-xs font-medium uppercase tracking-wider mb-2 text-purple-400/90">Planet Fitness</p>
               <p className="text-slate-400 text-sm leading-relaxed">
                 Supervising operational shifts, cultivating elite customer experiences, and coordinating team task execution in a fast-paced environment.
               </p>
