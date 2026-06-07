@@ -62,11 +62,10 @@ export default function Home() {
       <a href="#experience" className="hover:text-cyan-400 transition-colors">Experience</a>
       <a href="#projects" className="hover:text-cyan-400 transition-colors">Projects</a>
       <a href="#hobbies" className="hover:text-cyan-400 transition-colors">Beyond The Projects</a>
-      <a href="#contact" className="hover:text-cyan-400 transition-colors">Contact</a>
     </div>
 
     <a
-      href="/resume.pdf"
+      href="/T.Taylor_PM Resume.pdf"
       download
       className="px-4 py-2 rounded-lg border border-cyan-500/30 text-cyan-300 text-sm hover:bg-cyan-500/10 transition"
     >
