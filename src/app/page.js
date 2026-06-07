@@ -49,13 +49,38 @@ export default function Home() {
 
   return (
     <main className="relative flex min-h-screen flex-col items-center justify-start bg-slate-950 text-white p-6 pt-24 md:pt-32 pb-32 overflow-hidden">
+{/* Navigation */}
+<nav className="sticky top-0 z-50 w-full backdrop-blur-xl bg-slate-950/70 border-b border-cyan-500/10">
+  <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
 
+    <div className="text-white font-semibold tracking-wide">
+      Tanza Taylor
+    </div>
+
+    <div className="hidden md:flex items-center gap-6 text-sm text-slate-300">
+      <a href="#home" className="hover:text-cyan-400 transition-colors">Home</a>
+      <a href="#experience" className="hover:text-cyan-400 transition-colors">Experience</a>
+      <a href="#projects" className="hover:text-cyan-400 transition-colors">Projects</a>
+      <a href="#hobbies" className="hover:text-cyan-400 transition-colors">Beyond The Projects</a>
+      <a href="#contact" className="hover:text-cyan-400 transition-colors">Contact</a>
+    </div>
+
+    <a
+      href="/resume.pdf"
+      download
+      className="px-4 py-2 rounded-lg border border-cyan-500/30 text-cyan-300 text-sm hover:bg-cyan-500/10 transition"
+    >
+      Resume
+    </a>
+
+  </div>
+</nav>
       {/* ATMOSPHERIC BACKGROUND GLOWS */}
       <div className="absolute top-[-10%] left-[-10%] w-[500px] h-[500px] rounded-full bg-cyan-500/10 blur-[120px] pointer-events-none" />
       <div className="absolute top-[30%] right-[-10%] w-[600px] h-[600px] rounded-full bg-indigo-500/10 blur-[150px] pointer-events-none" />
 
       {/* 1. HERO SECTION */}
-      <div className="relative z-10 text-center space-y-4 mb-20">
+      <div id="home" className="relative z-10 text-center space-y-4 mb-20">
         
         <div className="space-y-2 pt-2">
           <h1 className="text-4xl md:text-6xl font-bold tracking-tight bg-gradient-to-r from-slate-100 to-slate-300 bg-clip-text text-transparent">
@@ -177,7 +202,7 @@ export default function Home() {
       </div>
 
       {/* 3. CORE CAPABILITIES */}
-      <div className="relative z-10 w-full max-w-5xl space-y-8 mb-24">
+      <div id="hobbies" className="relative z-10 w-full max-w-5xl space-y-8 mb-24">
         <div className="flex items-center space-x-2 text-cyan-400">
           <Terminal className="w-5 h-5" />
           <h2 className="text-sm font-semibold uppercase tracking-wider">
@@ -316,7 +341,7 @@ export default function Home() {
         </div>
       </div>
 {/* 4. FEATURED PROJECTS */}
-<div className="relative z-10 w-full max-w-5xl space-y-12 mb-28">
+<div id="projects" className="relative z-10 w-full max-w-5xl space-y-12 mb-28">
 
   <div className="flex items-center space-x-2 text-cyan-400">
     <h2 className="text-sm font-semibold uppercase tracking-wider">
@@ -371,7 +396,7 @@ export default function Home() {
   </div>
 </div>
       {/* 4. THE JOURNEY TIMELINE SECTION */}
-      <div className="relative z-10 w-full max-w-4xl space-y-8 mb-28">
+      <div id="experience" className="relative z-10 w-full max-w-4xl space-y-8 mb-28">
         <div className="flex items-center space-x-2 text-indigo-400">
           <Calendar className="w-5 h-5" />
           <h2 className="text-sm font-semibold uppercase tracking-wider">
