@@ -76,7 +76,7 @@ export default function Home() {
         <div className="flex items-center space-x-2 text-cyan-400">
           <User className="w-5 h-5" />
           <h2 className="text-sm font-semibold uppercase tracking-wider">
-            About Me // Professional Profile
+            About Me
           </h2>
         </div>
 
@@ -89,7 +89,7 @@ export default function Home() {
             </span>
           </h2>
           <p className="text-slate-400 text-base leading-relaxed">
-           My work has centered on creating structure, improving workflows, and turning complexity into organized systems. Experience across project coordination, operations support, process improvement, and workflow management naturally led to a growing interest in digital solutions, research, usability, and technology-driven problem solving.
+           Creating order from complexity has been a consistent theme throughout my career. Experience across project coordination, operations support, process improvement, and workflow management naturally led to a growing interest in digital solutions, research, usability, and technology-driven problem solving.
           </p>
         </div>
 
