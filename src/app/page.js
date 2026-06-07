@@ -90,14 +90,17 @@ export default function Home() {
           </h2>
 
         {/* Professional Story */}
-        <div className="backdrop-blur-xl bg-white/5 border border-white/10 rounded-2xl p-6 md:p-8 space-y-4 transition-all duration-300 hover:border-cyan-400/30 hover:shadow-[0_0_35px_rgba(34,211,238,0.08)]">
-          <p className="text-slate-300 text-sm leading-relaxed">
-            Whether coordinating projects, supporting operations, improving workflows, or building systems, I've always been drawn to work that brings structure to moving parts and turns ideas into something practical, organized, and useful. Whether coordinating projects, supporting operations, improving workflows, or building systems, I've always been drawn to work that brings structure to moving parts and turns ideas into something practical, organized, and useful.
-          </p>
-          <p className="text-slate-400 text-sm leading-relaxed">
-            Over time, that systems-focused mindset naturally expanded into digital solutions and technology. Long before exploring web applications, much of the work was already centered on organizing information, improving processes, solving operational challenges, and keeping moving pieces aligned. As new tools and technologies emerged, I became increasingly interested in how digital products could simplify workflows, support better decision-making, and create more efficient ways of working. That curiosity continues to shape how I approach projects, systems, and new ideas today.
-          </p>
+<div className="backdrop-blur-xl bg-white/5 border border-white/10 rounded-2xl p-6 md:p-8 space-y-4 transition-all duration-300 hover:border-cyan-400/30 hover:shadow-[0_0_35px_rgba(34,211,238,0.08)]">
 
+  <p className="text-slate-300 text-sm leading-relaxed">
+    Whether coordinating projects, supporting operations, improving workflows, or building systems, I've always been drawn to work that brings structure to moving parts and turns ideas into something practical, organized, and useful.
+  </p>
+
+  <p className="text-slate-400 text-sm leading-relaxed">
+    Over time, that systems-focused mindset naturally expanded into digital solutions and technology. Long before exploring web applications, much of the work was already centered on organizing information, improving processes, solving operational challenges, and keeping moving pieces aligned. As new tools and technologies emerged, I became increasingly interested in how digital products could simplify workflows, support better decision-making, and create more efficient ways of working.
+  </p>
+
+</div>
           {/* Qualities */}
           <div className="pt-2 flex flex-wrap gap-2">
             {["Workflow Design", "Systems Organization", "Process Improvement", "Project Planning", "Research & Analysis", "Digital Solutions"].map((q) => (
