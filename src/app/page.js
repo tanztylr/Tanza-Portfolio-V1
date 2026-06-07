@@ -51,7 +51,7 @@ export default function Home() {
     <main className="relative flex min-h-screen flex-col items-center justify-start bg-slate-950 text-white p-6 pt-24 md:pt-32 pb-32 overflow-hidden">
 {/* Navigation */}
 <nav className="sticky top-0 z-50 w-full backdrop-blur-xl bg-slate-950/70 border-b border-cyan-500/10">
-  <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+  <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-center gap-8">
 
     <div className="hidden md:flex items-center gap-6 text-sm text-slate-300">
       <a href="#home" className="hover:text-cyan-400 transition-colors">Home</a>
