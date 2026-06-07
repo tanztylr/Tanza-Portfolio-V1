@@ -61,7 +61,7 @@ export default function Home() {
     </div>
 
     <a
-      href="/resume.pdf"
+      href="/Tanza_Taylor_Resume.pdf"
       download
       className="px-4 py-2 rounded-lg border border-cyan-500/30 text-cyan-300 text-sm hover:bg-cyan-500/10 transition"
     >
