@@ -401,7 +401,7 @@ export default function Home() {
           {/* Sabbatical */}
           <div className="relative pl-8 md:pl-10 group text-slate-500">
             <div className="absolute left-[-5px] top-4 w-2 h-2 rounded-full bg-slate-800 border border-slate-700" />
-            <div className="text-xs font-mono italic pl-2">Feb 2025 - Feb 2026 // Specialized Research, Architecture Planning & Technical Upskilling</div>
+            <div className="text-xs font-mono italic pl-2">Feb 2025 - Feb 2026 // Independent Study, Skill Development & Project Exploration</div>
           </div>
 
           {/* Cracker Barrel Corporate */}
