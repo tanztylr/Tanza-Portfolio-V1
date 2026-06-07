@@ -76,7 +76,7 @@ export default function Home() {
         <div className="flex items-center space-x-2 text-cyan-400">
           <User className="w-5 h-5" />
           <h2 className="text-sm font-semibold uppercase tracking-wider">
-            About // Professional Profile
+            About Me // Professional Profile
           </h2>
         </div>
 
@@ -163,7 +163,7 @@ export default function Home() {
                 </svg>
               </div>
               <span className="text-xs font-mono font-semibold text-indigo-400 uppercase tracking-wider">
-  Systems Design
+  Ideas in Action
 </span>
             </div>
             <h3 className="text-base font-semibold text-white leading-snug">
@@ -182,7 +182,7 @@ export default function Home() {
         <div className="flex items-center space-x-2 text-cyan-400">
           <Terminal className="w-5 h-5" />
           <h2 className="text-sm font-semibold uppercase tracking-wider">
-            Execution Capabilities & Core Logic
+            How I Work
           </h2>
         </div>
 
@@ -224,7 +224,7 @@ export default function Home() {
           <div className="flex items-center space-x-2 text-slate-400 mb-2">
             <div className="w-2 h-2 rounded-full bg-cyan-400 animate-pulse" />
             <h3 className="text-sm md:text-base font-mono uppercase tracking-wider font-bold text-slate-200">
-              My Tech Stack
+              Tools Behind The Work
             </h3>
           </div>
 
