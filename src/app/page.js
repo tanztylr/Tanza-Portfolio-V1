@@ -88,10 +88,6 @@ export default function Home() {
               Driven by Solutions.
             </span>
           </h2>
-          <p className="text-slate-400 text-base leading-relaxed">
-           Creating order from complexity has been a consistent theme throughout my career. Experience across project coordination, operations support, process improvement, and workflow management naturally led to a growing interest in digital solutions, research, usability, and technology-driven problem solving.
-          </p>
-        </div>
 
         {/* Professional Story */}
         <div className="backdrop-blur-xl bg-white/5 border border-white/10 rounded-2xl p-6 md:p-8 space-y-4 transition-all duration-300 hover:border-cyan-400/30 hover:shadow-[0_0_35px_rgba(34,211,238,0.08)]">
