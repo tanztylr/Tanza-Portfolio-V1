@@ -48,7 +48,6 @@ export default function Home() {
   };
 
   return (
-    return (
   <main className="relative flex min-h-screen flex-col items-center justify-start bg-slate-950 text-white p-6 pt-4 md:pt-6 pb-32 overflow-hidden">
 {/* Navigation */}
 <nav className="sticky top-0 z-50 w-full backdrop-blur-xl bg-slate-950/70 border-b border-cyan-500/10">
