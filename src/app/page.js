@@ -75,7 +75,7 @@ export default function Home() {
       <div className="absolute top-[30%] right-[-10%] w-[600px] h-[600px] rounded-full bg-indigo-500/10 blur-[150px] pointer-events-none" />
 
       {/* 1. HERO SECTION */}
-      id="home" className="relative z-10 text-center space-y-4 mb-20 mt-12">
+      <div id="home" className="relative z-10 text-center space-y-4 mb-20 mt-12">
         
         <div className="space-y-2 pt-2">
           <h1 className="text-4xl md:text-6xl font-bold tracking-tight bg-gradient-to-r from-slate-100 to-slate-300 bg-clip-text text-transparent">
